@@ -2,6 +2,7 @@ EGamma exercise
 ---------------
 This exercise provdes an introduction to CMS electron and photon objects. It is used as part of:
 
+ - [CMSDAS 2025](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2025ShortExEGamma)
  - [CMSDAS 2024](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2024EGammaShortExercise)
  - [CMSDAS 2023](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2023EGammaShortExercise)
  - [CMSDAS 2020](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2021EGammaExercise)
@@ -13,11 +14,11 @@ and execute:
 ```bash
 # connect to LPC with a port forward to access the jupyter notebook server
 # remember to `kinit USERNAME@FNAL.GOV` to set up kerberos authorization before logging in
-ssh USERNAME@cmslpc-sl7.fnal.gov -L8xxx:localhost:8xxx
+ssh USERNAME@cmslpc-el9.fnal.gov -L8xxx:localhost:8xxx
 
 # create a working directory and clone the repo
 cd nobackup # if this symlink does not exist, look for /uscms_data/d1/$USER
-git clone git@github.com:gracecummings/CMSDAS_EGamma.git
+git clone git@github.com:cosbyc/CMSDAS_EGamma.git
 cd CMSDAS_EGamma
 
 # in case you do not already have this in your .bashrc (or equivalent) please run

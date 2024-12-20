@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 NAME=egammaenv
-LCG=/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-centos7-gcc11-opt
+LCG=/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt
 
 if [[ -f $NAME/bin/activate ]]; then
   echo "egammaenv already installed. Run \`source $NAME/bin/activate\` to activate"
