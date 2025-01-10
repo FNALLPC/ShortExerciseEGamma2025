@@ -18,8 +18,8 @@ ssh USERNAME@cmslpc-el9.fnal.gov -L8xxx:localhost:8xxx
 
 # create a working directory and clone the repo
 cd nobackup # if this symlink does not exist, look for /uscms_data/d1/$USER
-git clone git@github.com:cosbyc/CMSDAS_EGamma.git
-cd CMSDAS_EGamma
+git clone git@github.com:FNALLPC/ShortExerciseEGamma2025.git
+cd ShortExerciseEGamma2025
 
 # in case you do not already have this in your .bashrc (or equivalent) please run
 source /cvmfs/cms.cern.ch/cmsset_default.sh
